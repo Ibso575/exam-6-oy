@@ -12,6 +12,7 @@ import {
 
 import api from "../config/axios"; // O'zingizning axios sozlangan faylingiz
 import RelatedProducts from "../pages/related.jsx";
+import MobileActionPanel from "./fixedpanel.jsx";
 
 const ProductDetail = () => {
   const { id } = useParams();
@@ -206,6 +207,11 @@ const ProductDetail = () => {
           navigate={navigate} 
         />
       </div>
+      <MobileActionPanel 
+        price={product?.price} 
+        quantity={quantity} 
+        setQuantity={setQuantity} 
+      />
     </div>
   );
 };
