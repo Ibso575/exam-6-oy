@@ -3,7 +3,7 @@ import { LuScan } from "react-icons/lu";
 import homeIcon from "../assets/Home.svg";
 import heartIcon from "../assets/hearticon.svg";
 import cartIcon from "../assets/Shopicon.svg";
-import userIcon from "../assets/usericon.svg";
+import userIcon from "../assets/Usericon.svg";
 
 export default function MobileBottomNav() {
   return (
